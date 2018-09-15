@@ -102,6 +102,7 @@ int BinaryTree::count()
 {
 	return count(root);
 }
+
 int BinaryTree::count(Binarynode*subTree)
 {
 	if (subTree != NULL)
@@ -142,7 +143,7 @@ void BinaryTree::creatBinTree(Binarynode*&subTree)
 		subTree->data = item;
 		if (subTree == NULL)
 		{
-			cout << "´æ´¢·ÖÅä´íÎó";
+			cout << "Â´Ã¦Â´Â¢Â·Ã–Ã…Ã¤Â´Ã­ÃŽÃ³";
 			exit(1);
 
 		}
